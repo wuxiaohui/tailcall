@@ -1,0 +1,21 @@
+{
+  "name": "tc",
+  "version": "0.0.1",
+  "description": "init",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "edu"
+  ],
+  "author": "wuxiaohui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
