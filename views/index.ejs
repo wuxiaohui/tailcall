@@ -2,10 +2,18 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <link rel='stylesheet' href='/stylesheets/lib/material.min.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <div class="layout-transparent mdl-layout mdl-js-layout">
+    <header style="width:100%">
+    <a href='/login' class="mdl-button mdl-button--login">
+    登陆
+    </a>
+    </header>
+  </div>
+    <script src='/javascripts/lib/material.min.js'></script>
   </body>
 </html>

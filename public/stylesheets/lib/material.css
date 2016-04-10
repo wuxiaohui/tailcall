@@ -9861,7 +9861,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
   .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
   .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
-    color: rgb(63,81,181);
+    color: white;
     font-size: 12px;
     top: 4px;
     visibility: visible; }

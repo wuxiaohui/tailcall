@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;   
+}
+.layout-transparent {
+  background: url('../images/transparent.jpg') center / cover;
+  color: white;
+  max-height: 300px;
+}
+.mdl-button--login {
+    color: white;
+    width: 50px;
+    float: right;
+    font-size: 20px;
+}
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color:#fff;
+}
+.login {
+  background: -webkit-linear-gradient(top, #040406, #5B5A94);   /*Safari5.1 Chrome 10+*/
+  color: white;
+  font-size: 20px;
+}
+.login-form {
+    text-align: center;
+}
+.center {
+    margin-top:40%;
+}
+.is-focused>input:focus {
+        border-bottom: 1px solid rgba(247, 247, 247, 0.92);
+}
